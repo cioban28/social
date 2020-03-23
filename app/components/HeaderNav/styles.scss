@@ -1,0 +1,74 @@
+.route--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar-light {
+  background: #fff;
+}
+
+.navbar .navbar-brand {
+  margin-right: 20px;
+}
+
+.searchBox {
+  margin: 20px 0 15px;
+  display: block;
+  /** Hide search box for desktop */
+  &.searchBox--md {
+    display: none;
+  }
+  input {
+    width: 100%;
+    padding: 20px 59px 21px 17px;
+    background: rgba(0, 0, 0, 0.02);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: background 0.4s, box-shadow 0.2s;
+    &:focus {
+      border-color: #ccc;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0.04);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    .nav-item {
+      border-bottom: 1px solid #efefef;
+      margin-bottom: 5px;
+    }
+    .nav-user-actions {
+      margin: 10px 0;
+    }
+  }
+
+  .navbar {
+    .dropdown-menu {
+      box-shadow: none !important;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    &.navbar-expand-md {
+      padding: 0.5rem 2rem;
+    }
+  }
+
+  .searchBox {
+    display: none;
+    margin: 0 15px;
+    &.searchBox--md {
+      display: inline-flex;
+      flex: 1 1 auto;
+    }
+    input {
+      min-width: 200px;
+      max-width: 500px;
+    }
+  }
+}

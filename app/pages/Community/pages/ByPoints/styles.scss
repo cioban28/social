@@ -1,0 +1,10 @@
+.TopUsersTable {
+  tbody {
+    tr > td {
+      vertical-align: middle;
+      &:first-child {
+        text-align: center;
+      }
+    }
+  }
+}

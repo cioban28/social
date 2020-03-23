@@ -1,0 +1,41 @@
+.Comment {
+  margin-bottom: 20px;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.Comment-header {
+  margin-bottom: 15px;
+  h3,
+  h4 {
+    margin-bottom: 5px;
+  }
+}
+
+.Comment-details {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    &:not(:first-child) {
+      &:before {
+        color: rgb(66, 82, 110);
+        content: '·';
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        width: 16px;
+      }
+    }
+  }
+}
+
+.Comment-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  > div:not(:first-child) {
+    margin-left: 10px;
+  }
+}

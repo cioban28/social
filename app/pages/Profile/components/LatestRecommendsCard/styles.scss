@@ -1,0 +1,17 @@
+.LatestRecommendsCard {
+  .ant-card-body {
+    padding: 0;
+    padding-top: 1px;
+  }
+
+  .LatestRecommendsCard-item {
+    padding: 15px 6px;
+    display: flex;
+    > div:not(:first-child) {
+      margin-left: 10px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}

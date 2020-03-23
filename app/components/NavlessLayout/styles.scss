@@ -1,0 +1,26 @@
+@import 'app/styles/variables';
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.navlessLayout {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  .navlessLayout {
+    background: #fff;
+
+    .access-wrapper-card {
+      border: none;
+    }
+  }
+}

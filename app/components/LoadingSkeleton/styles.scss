@@ -1,0 +1,31 @@
+.loading-block {
+  height: 14px;
+  margin: 4px 0;
+  border-radius: 2px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(207, 216, 220, 0.2)),
+    color-stop(rgba(207, 216, 220, 0.4)),
+    to(rgba(207, 216, 220, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(207, 216, 220, 0.2),
+    rgba(207, 216, 220, 0.4),
+    rgba(207, 216, 220, 0.2)
+  );
+  background: linear-gradient(90deg, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));
+  -webkit-animation: card-loading 1.4s ease infinite;
+  animation: card-loading 1.4s ease infinite;
+  background-size: 600% 600%;
+
+  &.loading-block--circle {
+    border-radius: 50%;
+  }
+
+  &.loading-block--rounded {
+    border-radius: 8px;
+  }
+}

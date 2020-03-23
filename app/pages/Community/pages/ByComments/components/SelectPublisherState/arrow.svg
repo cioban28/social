@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="243px" height="266px" viewBox="0 0 243 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wirerframe-Arrows" transform="translate(-543.000000, -1318.000000)">
+            <g id="Scalable-Dotted-Arrows" transform="translate(260.000000, 531.000000)">
+                <g id="Group" transform="translate(410.500000, 915.500000) scale(-1, 1) rotate(-90.000000) translate(-410.500000, -915.500000) translate(274.000000, 788.000000)">
+                    <path d="M0,255 L49.7553243,147.718457 L49.7553243,147.718457 C50.9956524,145.044084 52.9965316,142.794482 55.5079889,141.250698 L243,26" id="Path-2" stroke="#979797" stroke-dasharray="10"></path>
+                    <polygon id="Triangle" fill="#9B9B9B" transform="translate(254.000000, 19.500000) rotate(60.000000) translate(-254.000000, -19.500000) " points="254 7 269 32 239 32"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

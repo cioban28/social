@@ -1,0 +1,51 @@
+.ProfileNav {
+  list-style: none;
+  background: #fff;
+  display: block;
+}
+
+.ProfileNav-list {
+  margin: 0;
+  padding: 0;
+}
+
+.ProfileNav-item {
+  display: inline-block;
+  text-align: center;
+  a {
+    border-bottom-width: 2px;
+    height: 60px;
+    box-sizing: border-box;
+    border-bottom: 0 solid;
+    display: block;
+    line-height: 1;
+    padding: 14px 15px 7px;
+    transition: all 0.15s ease-in-out;
+    color: #657786;
+    text-decoration: none !important;
+    &:hover,
+    &:focus,
+    &.active {
+      color: #657786;
+      border-color: #40a9ff !important;
+      border-bottom-width: 2px;
+    }
+  }
+  span {
+    display: block;
+  }
+}
+
+.ProfileNav-label {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+  transition: color 0.15s ease-in-out;
+}
+
+.ProfileNav-value {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  transition: color 0.15s ease-in-out;
+}

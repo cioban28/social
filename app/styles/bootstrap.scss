@@ -1,0 +1,89 @@
+/*!
+ * Bootstrap v4.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import './variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/badge';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/list-group';
+@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/utilities/align';
+@import '~bootstrap/scss/utilities/display';
+@import '~bootstrap/scss/utilities/flex';
+@import '~bootstrap/scss/utilities/spacing';
+@import '~bootstrap/scss/utilities/text';
+@import '~bootstrap/scss/utilities/sizing';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/button-group';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/alert';
+
+html {
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+  a.dropdown-item {
+    transition: color 0s;
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 4px 0 rgba(44, 64, 90, 0.21);
+  border-radius: 4px;
+  .dropdown-item {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+.text-muted {
+  color: $text-muted !important;
+}
+
+th {
+  font-weight: normal;
+  color: #8dabc4;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 4px;
+  color: #2196f3;
+  background-color: #e6f7ff;
+}
+
+.nav-pills .nav-link {
+  color: $body-color;
+  & + .nav-link {
+    margin-top: 0.3rem;
+  }
+  &:not(.active):hover {
+    color: $primary-color;
+  }
+}
+
+small {
+  color: #818488;
+}
+
+/** FORM */
+.form-group {
+  label {
+    color: #848484;
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+}

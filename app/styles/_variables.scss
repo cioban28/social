@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$font-family-base: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$navbar-light-color: #314659;
+$navbar-light-hover-color: #1890ff;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+$table-border-color: #f8f8f8;
+$body-bg: #fafafc;
+
+$blue: #228be6;
+$primary-color: $blue;
+$link-color: $blue;
+$link-hover-color: darken($blue, 5%);
+$card-spacer-x: 0.9rem;
+$card-cap-bg: #fff;
+$nav-link-padding-y: 0.6rem;
+$dropdown-link-active-bg: $blue;
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+$grid-gutter-width: 20px;
+
+$navbar-light-active-color: $blue;

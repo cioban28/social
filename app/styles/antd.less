@@ -1,0 +1,59 @@
+/**
+* Ant design imports and modifications
+* You can find most variables here: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+* Not all variables presented in this file, some variables can be inside components.
+*/
+
+// TODO: import only needed things
+// @import '~antd/dist/antd.less';
+@import '~antd/lib/button/style/index.less';
+@import '~antd/lib/form/style/index.less';
+@import '~antd/lib/card/style/index.less';
+@import '~antd/lib/input/style/index.less';
+@import '~antd/lib/select/style/index.less';
+@import '~antd/lib/alert/style/index.less';
+@import '~antd/lib/spin/style/index.less';
+@import '~antd/lib/modal/style/index.less';
+
+/* @import '~antd/lib/style/core/motion/fade';
+@import '~antd/lib/style/core/motion/move';
+@import '~antd/lib/style/core/motion/slide';
+@import '~antd/lib/style/core/motion/swing'; */
+//@import '~antd/lib/style/core/motion/zoom';
+
+
+@font-family-no-number: Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+  sans-serif;
+@font-family: @font-family-no-number;
+@font-size-base: 15px;
+@body-background: #fafafc;
+
+/* Form */
+@form-item-margin-bottom: 20px;
+@label-color: #8dabc4;
+
+/* Button */
+@btn-height-base : 34px;
+
+/* Input */
+@input-height-base: 36px;
+@form-component-max-height: @input-height-base;
+
+/* Card */
+@card-head-padding: 12px;
+@card-head-height: 40px;
+@card-padding-base: 15px;
+
+.ant-card {
+  &-head {
+    &-title {
+      font-size: @font-size-base;
+    }
+  }
+}
+
+.btn-secondary {
+  .ant-spin-dot i {
+    background-color: #fff;
+  }
+}

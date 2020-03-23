@@ -1,0 +1,35 @@
+$avatar-color: #5755d9;
+
+.avatar {
+  background: $avatar-color;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.25;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+
+  img {
+    border-radius: 50%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &[data-initial]::before {
+    color: currentColor;
+    text-transform: uppercase;
+    content: attr(data-initial);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}

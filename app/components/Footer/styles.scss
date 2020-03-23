@@ -1,0 +1,39 @@
+$footer-max-width: 280px;
+$font-size: 10px;
+$font-color: #818488;
+
+@mixin text($color) {
+  color: $color;
+  font-size: $font-size;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+footer {
+  width: 100%;
+  max-width: $footer-max-width;
+  margin: 0 auto;
+  padding: 15px 0;
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+    a {
+      @include text($font-color);
+
+      letter-spacing: 0.05rem;
+      &:hover {
+        color: #40a9ff;
+        text-decoration: underline;
+      }
+    }
+
+    .copyright {
+      @include text(lighten($font-color, 20%));
+    }
+  }
+}

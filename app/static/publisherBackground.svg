@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="100px" viewBox="0 0 282 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,2.99280137 C0,1.33992281 1.35198336,0 2.99972722,0 L279.000273,0 C280.656976,0 282,1.33801252 282,2.99280137 L282,100 L0,100 L0,2.99280137 Z" id="path-1"></path>
+    </defs>
+    <g id="Publisher" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Publisher-page" transform="translate(-1038.000000, -105.000000)">
+            <g id="profile-card" transform="translate(1038.000000, 105.000000)">
+                <g id="cover">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="bg" fill="#E9E9E9" opacity="0.519999981" xlink:href="#path-1"></use>
+                    <g id="BG" mask="url(#mask-2)" font-family="AppleColorEmoji, Apple Color Emoji" font-size="22" font-weight="normal">
+                        <g transform="translate(4.000000, -15.000000)">
+                            <text id="😃" opacity="0.236922554">
+                                <tspan x="16" y="57" fill="#231F20">😃</tspan>
+                            </text>
+                            <text id="😃" opacity="0.351958786" transform="translate(134.892305, 43.990381) rotate(-30.000000) translate(-134.892305, -43.990381) ">
+                                <tspan x="122.892305" y="51.9903811" fill="#231F20">😃</tspan>
+                            </text>
+                            <text id="💬" opacity="0.397927989" transform="translate(228.000000, 53.000000) rotate(48.000000) translate(-228.000000, -53.000000) ">
+                                <tspan x="216" y="61" fill="#231F20">💬</tspan>
+                            </text>
+                            <text id="💬" opacity="0.397927989" transform="translate(73.422416, 16.855894) rotate(-10.000000) translate(-73.422416, -16.855894) ">
+                                <tspan x="61.4224157" y="24.8558944" fill="#231F20">💬</tspan>
+                            </text>
+                            <text id="💬" opacity="0.397927989" transform="translate(187.176740, 84.954697) rotate(48.000000) translate(-187.176740, -84.954697) ">
+                                <tspan x="175.17674" y="92.954697" fill="#231F20">💬</tspan>
+                            </text>
+                            <text id="💬" opacity="0.397927989" transform="translate(54.422416, 84.855894) rotate(10.000000) translate(-54.422416, -84.855894) ">
+                                <tspan x="42.4224157" y="92.8558944" fill="#231F20">💬</tspan>
+                            </text>
+                            <text id="😍" opacity="0.226958786">
+                                <tspan x="93" y="97" fill="#231F20">😍</tspan>
+                            </text>
+                            <text id="😍" opacity="0.446557971" transform="translate(275.856447, 103.167154) rotate(-12.000000) translate(-275.856447, -103.167154) ">
+                                <tspan x="263.856447" y="111.167154" fill="#231F20">😍</tspan>
+                            </text>
+                            <text id="❤️" opacity="0.354789402">
+                                <tspan x="69" y="64" fill="#231F20">❤️</tspan>
+                            </text>
+                            <text id="❤️" opacity="0.0852015399" transform="translate(16.000000, 100.594716) rotate(-15.000000) translate(-16.000000, -100.594716) ">
+                                <tspan x="4" y="108.594716" fill="#231F20">❤️</tspan>
+                            </text>
+                            <text id="❤️" opacity="0.224014946">
+                                <tspan x="254" y="40" fill="#231F20">❤️</tspan>
+                            </text>
+                            <text id="🤔" opacity="0.260529891">
+                                <tspan x="182" y="48" fill="#231F20">🤔</tspan>
+                            </text>
+                            <text id="🤨" opacity="0.271399457">
+                                <tspan x="216" y="97" fill="#231F20">🤨</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

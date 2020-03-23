@@ -1,0 +1,23 @@
+.profile-top {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1eded;
+  border-top: 1px solid #f1eded;
+}
+
+.profile-top-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  h3 {
+    margin-bottom: 5px;
+  }
+  > div {
+    margin-left: 10px;
+  }
+}
+
+.profile-top {
+
+}

@@ -1,0 +1,16 @@
+.publisher-list-item {
+  display: flex !important;
+  align-items: center;
+  > .publisher-list-item-content {
+    margin-left: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  small {
+    color: #818488;
+  }
+}
