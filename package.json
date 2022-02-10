@@ -59,7 +59,7 @@
     "@types/webpack-env": "^1.13.6",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "poi": "^10.2.10",
     "react-hot-loader": "^4.3.11",
     "sass-loader": "^7.1.0",
